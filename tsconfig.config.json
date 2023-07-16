@@ -3,6 +3,11 @@
   "include": ["vite.config.*", "vitest.config.*", "cypress.config.*"],
   "compilerOptions": {
     "composite": true,
-    "types": ["node"]
+    "types": ["node"],
+    "target": "ES5",
+    "strict": true,
+    "module":"ES2015",
+    "moduleResolution": "node"
+
   }
 }
